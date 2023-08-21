@@ -1,0 +1,22 @@
+[FORMAT]
+
+# Maximum line length
+max-line-length=100
+
+[BASIC]
+
+# Variable names should be at least 3 characters long
+variable-rgx=[a-z_][a-z0-9_]{2,30}$
+
+[MESSAGES CONTROL]
+
+# Ignore certain pylint checks
+disable=missing-docstring,invalid-name
+
+[REPORTS]
+
+# Output messages only in color
+output-format=colorized
+
+# ignore examples folder
+ignore=examples
